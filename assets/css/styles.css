@@ -5,7 +5,7 @@
 }
 a{
     text-decoration: none;
-    color: #151314;
+    color: white
 }
 
 body{
@@ -193,7 +193,7 @@ img:hover {
 }
 
 .footer-menu{
-    padding: 15px auto 30px auto;
+    padding: 15px auto 100px auto;
 
 
 }
@@ -205,6 +205,8 @@ img:hover {
     text-decoration: none;
     font-size: 25px;
     list-style: none;
+    padding-left: 30px;
+    padding-bottom: 90px;
 
 }
 
@@ -213,3 +215,29 @@ img:hover {
 
 
 }
+
+
+@media screen and (max-width: 980px) {
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    header h1{ 
+        font-size: 36px;
+    }
+    h4{ 
+        font-size: 32px;
+    }
+
+}
+
+
+@media screen and (max-width: 575px){
+
+    
+
+}
+    
