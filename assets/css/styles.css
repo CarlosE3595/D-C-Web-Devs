@@ -1,3 +1,4 @@
+/* initialization */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -19,7 +20,9 @@ body{
     margin: 0 auto;
 
 }
+/* initialization end */
 
+/* header start */
 container {
     display: flex;
     flex-flow: column;
@@ -69,7 +72,7 @@ header h1 {
     display: inline-block ;
     margin-left: 25px;
 }
-
+/* header end */
 
 
 
@@ -88,6 +91,8 @@ header h1 {
     justify-content: center;
 }
 
+
+/* hero section start */
 .hero{
     background-image: url(../images/blue-smoke-background.jpg);
     background-color: aliceblue;
@@ -103,7 +108,9 @@ header h1 {
 
 
 }
+/*  end of hero section */
 
+/* start of content section */
 .content {    
     width: 65%;
     border-left: 12px solid #343A40;
@@ -120,6 +127,7 @@ header h1 {
     width: 25%;
     margin-right: 20px;
 }
+/* beggining of about me section */
 h4 {
     text-align: right;
 }
@@ -130,6 +138,9 @@ h4 {
 .section-about-me p {
     padding-bottom: 55px;
 }
+/* end of about me section */
+
+/* beginning of work section */
 .section-work {
     display: flex;
     justify-content: center;
@@ -179,7 +190,9 @@ img:hover {
     width: 100%;
     height: 100%;
 }
+/* end of work section */
 
+/* start of footer section */
 .footer-menu{
     padding: 15px auto 100px auto;
 
@@ -197,6 +210,9 @@ img:hover {
     padding-bottom: 90px;
 
 }
+/* end of footer section */
+
+
 
 @media screen and (max-width: 768px) {
 
